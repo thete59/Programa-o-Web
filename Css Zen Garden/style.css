@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik+Doodle+Shadow&family=Tauri&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@600&family=Rubik+Doodle+Shadow&display=swap');
+
+/*paleta de cores:
+cor de fundo:#C791FF
+cor de fonte:#5F005F
+cor de destaque:#568308
+
+*/
+body{font-family: "Playfair Display", serif;
+   background-color: #C791FF;
+   display: flex;
+   height: 100%;
+   margin: 2px;
+   width: 100%;
+   color: #831173;
+ 
+   
+}
+
+h1{font-family: 'Rubik Doodle Shadow';
+    font-size: 2.5em;
+color:#5F005F ;
+}
+
+
+
+
+
+
+
