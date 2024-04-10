@@ -8,26 +8,47 @@ cor de fonte:#5F005F
 cor de destaque:#568308
 
 */
+html{width: 80%;
+max-width: 1280px;
+position: center;
+height: 100%;
+margin: auto;}
+
 body{font-family: "Playfair Display", serif;
    background-color: #C791FF;
-   display: flex;
-   height: 100%;
-   margin: 2px;
-   width: 100%;
    color: #831173;
  
    
 }
 
-h1{font-family: 'Rubik Doodle Shadow';
-    font-size: 2.5em;
-color:#5F005F ;
+header{
+    background-color: #5F005F;
+    text-align: center;
 }
+header h1{color:rgb(255, 102, 253);
+display: inline;
+padding-right:  1em;
+}
+
+header h2{color: rgb(178, 6, 201);
+display: inline;}
+
+footer{ 
+margin: 4%;
+display: inline-block;}
+
+footer a{color: rgb(0, 69, 5);
+    border:rgb(30, 52, 30) 2px solid;
+    padding: 0.5em;
+  
+ }
 
 p{text-indent:1em;}
 
-h1{text-align: center;
-font-size:1.8rem;}
+h1{font-family: 'Rubik Doodle Shadow';
+    text-align: center;
+font-size:2.5rem;
+color:#380b38 ;}
 
 h2{
 text-align: center;
@@ -35,6 +56,8 @@ font-size: 1.4rem;
 }
 h3{text-align: center;
 font-size: 1.2rem;}
+
+section.intro{ height: 550px ;}
 
 .summary{text-align: right;}
 
@@ -44,6 +67,21 @@ line-height: 1.5;}
 abbr{
 font-variant: small-caps;
 }
+
+aside ul{list-style-type: none;}
+aside ul li{
+    margin: 1em;
+    text-align: center;
+}
+
+#design-archives{display: none;}
+
+
+
+
+
+
+
 
 
 
