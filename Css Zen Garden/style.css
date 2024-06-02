@@ -33,24 +33,6 @@ padding-right:  1em;
 header h2{color: rgb(178, 6, 201);
 display: inline;}
 
-f
-
-footer{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 4%;
-    flex-wrap: wrap;
-}
-
-footer a{color: rgb(52, 0, 36);
-    background-color: rgb(185, 0, 179);
-    border:rgb(30, 52, 30) 2px solid;
-    padding: 0.5em;
-   
- }
-
-p{text-indent:1em;}
-
 h1{font-family: 'Rubik Doodle Shadow';
     text-align: center;
 font-size:2.5rem;
@@ -63,6 +45,30 @@ font-size: 1.4rem;
 h3{text-align: center;
 font-size: 1.2rem;}
 
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4%;
+    flex-wrap: wrap;
+}
+
+footer a{color: rgb(52, 0, 36);
+    border:rgb(30, 52, 30) 2px solid;
+    padding: 0.5em;
+   
+ }
+
+a{background-color: rgb(185, 0, 179);
+  font-weight: bold; 
+  color: #000000;
+}
+a:hover{color: rgb(242, 144, 255);
+font-weight: normal;}
+
+p{text-indent:1em;}
+
+
+
 section.intro{ height: 550px ;}
 
 .summary{text-align: right;}
@@ -70,6 +76,10 @@ section.intro{ height: 550px ;}
 .mainsupporting{text-align: center;
 line-height: 1.5;}
 
+.mainsupporting p:first-of-type:first-letter{font-size:3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+ }
 abbr{
 font-variant: small-caps;
 }
@@ -123,7 +133,13 @@ padding-right:2%;}
   }
 .participation h3{align-self: center;}
 
+.design-selection li{
+padding-top: 1px;
+border-top: rgb(139, 53, 156) solid 2px; }
 
+.design-selection li:last-child{
+    padding-bottom: 8px;
+    border-bottom: rgb(139, 53, 156) solid 2px;}
 
 
 
