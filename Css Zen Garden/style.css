@@ -56,17 +56,15 @@ footer a{color: rgb(52, 0, 36);
     border:rgb(30, 52, 30) 2px solid;
     padding: 0.5em;
    
- }
-
+ } /*mudei aqui*/
 a{background-color: rgb(185, 0, 179);
   font-weight: bold; 
   color: #000000;
-}
+}/*add aqui*/
 a:hover{color: rgb(242, 144, 255);
-font-weight: normal;}
+font-weight: normal;}/*add aqui*/ 
 
 p{text-indent:1em;}
-
 
 
 section.intro{ height: 550px ;}
@@ -80,27 +78,29 @@ line-height: 1.5;}
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: left;
  }
-abbr{
-font-variant: small-caps;
-}
 
+abbr{
+    font-variant: small-caps;
+    }
+    
 aside ul{list-style-type: none;}
 aside ul li{
-    margin: 1em;
-    text-align: center;
-}
-
-#design-archives{display: none;}
+        margin: 1em;
+        text-align: center;
+    }
 
 .page-wrapper{position: relative;}
 .explanation{width: 60%;
 margin-right: 35%;
-border-right: solid 1px #1f295c ;
+border-right: solid 1px #000000 ;
 padding-right:2%;}
 
-#design-selection{
+#zen-intro{height: 550px;}
+
+#design-archives{display: none;}
+.design-selection{
     position: absolute;
-    top: 520px;
+    top: 510px;
     left: 62%;
     padding-left:1%;
     padding-right:1%;
@@ -133,6 +133,7 @@ padding-right:2%;}
   }
 .participation h3{align-self: center;}
 
+
 .design-selection li{
 padding-top: 1px;
 border-top: rgb(139, 53, 156) solid 2px; }
@@ -140,6 +141,45 @@ border-top: rgb(139, 53, 156) solid 2px; }
 .design-selection li:last-child{
     padding-bottom: 8px;
     border-bottom: rgb(139, 53, 156) solid 2px;}
+
+@media screen and (max-width:768px)
+{
+.design-selection{
+        position: static;
+        width: 100%;
+    }
+.explanation{width: 100%;
+    border-right: none;
+       }
+
+#zen-intro{height: auto;}
+
+.participation{ flex-direction: column;
+     }
+p{text-indent: 0;}
+}
+
+@media print{
+
+
+body{font-family: 'Times New Roman', Times, serif;
+    background-color: #993cfc;}
+header{
+    background-color: #ffe4ff;
+    text-align: center;}
+header h1{color: blue}
+header h2{color:#000000}
+.design-selection{
+    position: static;
+    width: 100%;
+}
+.explanation{width: 100%;
+    border-right: none;
+       }
+}
+
+
+
 
 
 
