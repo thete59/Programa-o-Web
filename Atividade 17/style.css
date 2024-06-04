@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{background-color: rgb(245, 245, 245); 
+font-family: "PT Serif",serif;}
+h1{
+    font-family: 'Cinzel',serif; 
+    color: rgb(83, 52, 52); 
+    margin: 16px 0px 0px 10px;
+    position: relative;
+}
+
+h2{font-family: "Cinzel",serif;
+color: rgb(87, 41, 41);}
+.menu{font-family: "Cinzel",serif;
+font-weight: 600;
+color: rgb(83, 52, 52);
+display: inline;
+position: relative;
+top: -15px;
+left: 16%;
+padding-left: 4%;
+}
+.menu:hover{color: rgb(166, 0, 0);
+text-decoration: underline;}
+#logo{
+    display: inline;
+    position: absolute;
+    margin-left: 10%;
+    top: 3%;
+    width:100px;
+}
+a{text-decoration: none;}
+.container{display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.container>div{background-color: rgb(135, 69, 21);
+border-radius: 4px;
+padding: 3px;
+color: rgb(255, 253, 252);
+flex-basis: 400px;
+padding: 2%;}
+
+@media screen and (max-width: 648px) 
+{
+    h1{text-align: center;}
+    p{background-color: chocolate;}
+    .container{flex-wrap: wrap;}
+    .container>div{flex-basis: 30%;}
+
+}
+@media screen and (max-width:480px)
+{
+    .container{flex-direction: column;}
+}
+
+@media print{
+    html{font-family: serif;}
+}
